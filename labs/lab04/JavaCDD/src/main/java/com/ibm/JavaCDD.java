@@ -45,7 +45,7 @@ public class JavaCDD extends ChaincodeBase {
 	 */
 	public String run(ChaincodeStub stub, String function, String[] args) {
 		
-		log.info("Versão cmmatayo : Calling invocation chaincode with function :" + function + " and args :"
+		log.info("Versao cmmatayo : Calling invocation chaincode with function :" + function + " and args :"
 				+ org.apache.commons.lang3.StringUtils.join(args, ","));
 
 		switch (function) {
